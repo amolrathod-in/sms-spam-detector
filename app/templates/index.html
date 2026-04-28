@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SMS Spam Detector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>📩 SMS Spam Detector</h1>
+
+    <form action="/predict" method="post">
+        <textarea name="message" placeholder="Enter your message here..." required></textarea>
+        <button type="submit">Check Message</button>
+    </form>
+
+    {% if prediction %}
+        <div id="resultBox" class="result {{ 'spam' if prediction == 'Spam' else 'ham' }}">
+            {{ prediction == 'Spam' and '🚫 Spam Detected' or '✅ Ham Message' }}
+        </div>
+
+        <div class="message-box">
+            <strong>Message:</strong> {{ message }}
+        </div>
+    {% endif %}
+
+    <footer>
+        Built with Python (Flask) + Machine Learning 🚀
+    </footer>
+</div>
+
+<!-- JS for auto-hide -->
+<script>
+    const resultBox = document.getElementById("resultBox");
+
+    if (resultBox) {
+        // Show delay (simulate processing feel)
+        resultBox.style.opacity = "0";
+
+        setTimeout(() => {
+            resultBox.style.opacity = "1";
+        }, 500);
+
+        // Auto hide after 3 seconds
+        setTimeout(() => {
+            resultBox.style.opacity = "0";
+        }, 3500);
+
+        // Remove completely after fade
+        setTimeout(() => {
+            resultBox.style.display = "none";
+        }, 4000);
+    }
+</script>
+
+</body>
+</html>
