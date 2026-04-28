@@ -116,7 +116,7 @@ sms-spam-detector/
 ### 1. Clone the repository
 
 ```bash
-git clone [<your-repo-link>](https://github.com/amolrathod-in/sms-spam-detector)
+git clone https://github.com/amolrathod-in/sms-spam-detector
 cd sms-spam-detector
 ```
 
