@@ -6,7 +6,7 @@
 
 ---
 
-# Project Overview
+## 🚀 Project Overview
 
 This project is a **Machine Learning-based SMS Spam Detection system** that classifies messages as:
 
@@ -17,7 +17,7 @@ It leverages **Natural Language Processing (NLP)** and a trained classification 
 
 ---
 
-# Problem Statement
+## 🎯 Problem Statement
 
 With the rise of spam, phishing, and fraudulent SMS messages, users are increasingly vulnerable to scams.
 
@@ -29,7 +29,7 @@ This project aims to:
 
 ---
 
-# Technologies Used
+## 🧠 Technologies Used
 
 * Python
 * Pandas, NumPy
@@ -37,19 +37,21 @@ This project aims to:
 * NLTK
 * Flask (Web Application)
 
-# Core Concepts
+### Core Concepts
 
 * TF-IDF
 * Logistic Regression
 
 ---
 
-# Project Structure
+## 📂 Project Structure
 
 ```
 sms-spam-detector/
 │── data/
-│   └── spam.csv
+│   ├── raw/
+│   │   └── spam.csv
+│   └── processed/
 │
 │── models/
 │   ├── model.pkl
@@ -59,9 +61,8 @@ sms-spam-detector/
 │   └── sms_spam_analysis.ipynb
 │
 │── src/
-│   ├── processing.py
+│   ├── preprocessing.py
 │   ├── features.py
-│   ├── model.py
 │   ├── train.py
 │   └── predict.py
 │
@@ -72,13 +73,16 @@ sms-spam-detector/
 │   └── static/
 │        └── styles.css
 │
+│── tests/
+│   └── test_predict.py
+│
 │── requirements.txt
 │── README.md
 ```
 
 ---
 
-# How It Works
+## ⚙️ How It Works
 
 1. **Data Preprocessing**
 
@@ -107,42 +111,42 @@ sms-spam-detector/
 
 ---
 
-# How to Run the Project
+## ▶️ How to Run the Project
 
-# 1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone <your-repo-link>
 cd sms-spam-detector
 ```
 
-# 2. Create environment
+### 2. Create environment
 
 ```bash
 conda create -n spam_project python=3.10 -y
 conda activate spam_project
 ```
 
-# 3. Install dependencies
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-# 4. Train the model
+### 4. Train the model
 
 ```bash
 python src/train.py
 ```
 
-# 5. Run the Flask app
+### 5. Run the Flask app
 
 ```bash
 cd app
 python app.py
 ```
 
-# 6. Open in browser
+### 6. Open in browser
 
 ```
 http://127.0.0.1:5000/
@@ -150,21 +154,21 @@ http://127.0.0.1:5000/
 
 ---
 
-# Example Inputs
+## 🧪 Example Inputs
 
-# ✅ Ham
+### ✅ Ham
 
 * "Hey, are we meeting today?"
 * "I reached home safely."
 
-# 🚫 Spam
+### 🚫 Spam
 
 * "Congratulations! You won a free prize!"
 * "Your account requires verification. Please update details."
 
 ---
 
-# Model Performance
+## 📊 Model Performance
 
 | Metric         | Score |
 | -------------- | ----- |
@@ -172,7 +176,7 @@ http://127.0.0.1:5000/
 | Spam Recall    | 91%   |
 | Spam Precision | 89%   |
 
-# Key Insights:
+### Key Insights:
 
 * Strong performance on standard spam
 * Improved detection of tricky spam using feature engineering
@@ -180,7 +184,7 @@ http://127.0.0.1:5000/
 
 ---
 
-# Limitations
+## ⚠️ Limitations
 
 * May struggle with highly **contextual or semantic spam**
 * Relies on statistical patterns, not full language understanding
@@ -188,7 +192,7 @@ http://127.0.0.1:5000/
 
 ---
 
-# Future Improvements
+## 🔥 Future Improvements
 
 * Use advanced NLP models like BERT
 * Add prediction probability (confidence score)
@@ -198,7 +202,7 @@ http://127.0.0.1:5000/
 
 ---
 
-# Deployment (Optional)
+## 🌐 Deployment (Optional)
 
 You can deploy this project using:
 
@@ -208,20 +212,20 @@ You can deploy this project using:
 
 ---
 
-# Author
+## 👨‍💻 Author
 
-**Amol Rathod**
+**Your Name**
 
 ---
 
-# Acknowledgements
+## ⭐ Acknowledgements
 
 * Dataset from Kaggle
 * Scikit-learn & NLP community
 
 ---
 
-# Conclusion
+## 📌 Conclusion
 
 This project demonstrates how machine learning and NLP can be applied to solve real-world problems like spam detection.
 
@@ -232,3 +236,4 @@ It highlights:
 * Deployment with Flask
 
 ---
+

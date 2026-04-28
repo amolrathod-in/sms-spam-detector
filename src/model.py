@@ -1,4 +1,7 @@
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.linear_model import LogisticRegression
 
 def get_model():
-    return MultinomialNB()
+    return LogisticRegression(
+        max_iter=1000,
+        class_weight='balanced'
+    )
