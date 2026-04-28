@@ -214,7 +214,7 @@ You can deploy this project using:
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Amol Rathod**
 
 ---
 
