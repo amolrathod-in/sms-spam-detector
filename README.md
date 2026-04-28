@@ -116,14 +116,14 @@ sms-spam-detector/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-link>
+git clone [<your-repo-link>](https://github.com/amolrathod-in/sms-spam-detector)
 cd sms-spam-detector
 ```
 
 ### 2. Create environment
 
 ```bash
-conda create -n spam_project python=3.10 -y
+conda create -n spam_project python=3.12 -y
 conda activate spam_project
 ```
 
