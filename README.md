@@ -61,7 +61,8 @@ sms-spam-detector/
 │   └── sms_spam_analysis.ipynb
 │
 │── src/
-│   ├── preprocessing.py
+│   ├── processing.py
+│   ├── test.py
 │   ├── features.py
 │   ├── train.py
 │   └── predict.py
@@ -72,9 +73,6 @@ sms-spam-detector/
 │   │    └── index.html   
 │   └── static/
 │        └── styles.css
-│
-│── tests/
-│   └── test_predict.py
 │
 │── requirements.txt
 │── README.md
