@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project is a **Machine Learning-based SMS Spam Detection system** that classifies messages as:
 
@@ -17,7 +17,7 @@ It leverages **Natural Language Processing (NLP)** and a trained classification 
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 With the rise of spam, phishing, and fraudulent SMS messages, users are increasingly vulnerable to scams.
 
@@ -29,7 +29,7 @@ This project aims to:
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 * Python
 * Pandas, NumPy
@@ -44,7 +44,7 @@ This project aims to:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 sms-spam-detector/
@@ -78,7 +78,7 @@ sms-spam-detector/
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. **Data Preprocessing**
 
@@ -107,7 +107,7 @@ sms-spam-detector/
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the repository
 
@@ -150,7 +150,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## 🧪 Example Inputs
+## Example Inputs
 
 ### ✅ Ham
 
@@ -164,7 +164,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric         | Score |
 | -------------- | ----- |
@@ -180,7 +180,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * May struggle with highly **contextual or semantic spam**
 * Relies on statistical patterns, not full language understanding
@@ -188,7 +188,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## 🔥 Future Improvements
+## Future Improvements
 
 * Use advanced NLP models like BERT
 * Add prediction probability (confidence score)
@@ -198,7 +198,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## 🌐 Deployment (Optional)
+## Deployment (Optional)
 
 You can deploy this project using:
 
@@ -208,20 +208,20 @@ You can deploy this project using:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Amol Rathod**
 
 ---
 
-## ⭐ Acknowledgements
+## Acknowledgements
 
 * Dataset from Kaggle
 * Scikit-learn & NLP community
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates how machine learning and NLP can be applied to solve real-world problems like spam detection.
 
