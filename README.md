@@ -49,9 +49,7 @@ This project aims to:
 ```
 sms-spam-detector/
 │── data/
-│   ├── raw/
-│   │   └── spam.csv
-│   └── processed/
+│   └── spam.csv
 │
 │── models/
 │   ├── model.pkl
